@@ -1,0 +1,73 @@
+.message-app {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.contacts-list {
+  padding: 0;
+  border-right: 1px solid #e6e6e6;
+  height: 100%;
+}
+
+.search-bar {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.search-bar .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.section-title {
+  font-size: 23px;
+  font-weight: bold;
+  color: #0e4292;
+}
+
+.conversation-item {
+  background-color: #edf1ff;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.conversation-item .avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.conversation-item h6 {
+  font-size: 16px;
+  color: #fff;
+}
+
+.conversation-item p {
+  font-size: 12px;
+  color: #d0d4f1;
+}
+
+.conversation-item .status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #4caf50;
+  margin-top: 5px;
+}
+
+.conversation-item:hover {
+  background-color: #d2e0ff;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.small {
+  font-size: 10px;
+  color: #c0c0c0;
+}

@@ -1,0 +1,25 @@
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* S'assure que le spinner est centré verticalement */
+  background-color: #f8f9fa;
+  /* Couleur de fond pour l'effet */
+}
+
+.loading-spinner {
+  width: 60px;
+  height: 60px;
+  border: 8px solid rgba(0, 0, 0, 0.1);
+  border-top-color: #3498db;
+  /* Couleur du spinner */
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

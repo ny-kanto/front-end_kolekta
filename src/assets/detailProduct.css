@@ -1,0 +1,41 @@
+.thumbSwiper img {
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.star-rating .on .star {
+  color: gold;
+}
+
+.star-rating .off .star {
+  color: #ccc;
+}
+
+.star-on {
+  color: gold;
+}
+
+.star-off {
+  color: #ccc;
+}
+
+.star-rating .star {
+  font-size: 2rem;
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.modal-grow .modal-dialog {
+  animation: grow 0.4s ease-out;
+}

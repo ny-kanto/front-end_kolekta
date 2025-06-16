@@ -1,0 +1,54 @@
+.sidebar {
+  background: linear-gradient(45deg, #0F7CC4, #07C46C);
+  color: white;
+  font-weight: bold;
+  height: 85%;
+  width: 250px;
+  padding: 20px;
+  margin: 20px 0px 0px 20px;
+  position: fixed;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  /* Pour Firefox */
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 6px;
+  /* Largeur réduite de la scrollbar */
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  /* Couleur discrète */
+  border-radius: 10px;
+}
+
+.menu-section {
+  margin-top: 20px;
+}
+
+.menu-title {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  opacity: 0.6;
+}
+
+.nav-link {
+  color: white;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #ffd700;
+}
+
+.menu-dropdown {
+  display: none;
+  padding-left: 20px;
+}
+
+.menu-dropdown.show {
+  display: block;
+}

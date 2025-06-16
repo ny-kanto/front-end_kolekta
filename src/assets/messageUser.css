@@ -1,0 +1,25 @@
+.chat-window-user {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background: white;
+  overflow: hidden;
+}
+
+.chat-header-user {
+  cursor: pointer;
+}
+
+.cursor-pointer-user {
+  cursor: pointer;
+}
+
+.chat-body-user{
+  overflow-y: auto;
+  width: auto;
+  height: 550px;
+}
+
+.chat-text-user {
+  width: fit-content;
+  max-width: 500px;
+}

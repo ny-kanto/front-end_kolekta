@@ -1,0 +1,62 @@
+.contact-section {
+  background-color: #333;
+  color: #fff;
+}
+
+.hero-section {
+  background-image: url('../assets/images/background-homepage.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  color: #fff;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.features-section h2 {
+  margin-bottom: 2rem;
+}
+
+.features-section .fas {
+  color: #28a745;
+}
+
+.categories-section .fas {
+  color: #17a2b8;
+}
+
+.categories-section h2 {
+  margin-bottom: 2rem;
+}
+
+.change-section h2 {
+  margin-bottom: 2rem;
+}
+
+.how-it-works-section h2 {
+  margin-bottom: 2rem;
+}
+
+.cta-section {
+  background-color: #333;
+  color: #fff;
+}
+
+.cta-section h2 {
+  margin-bottom: 2rem;
+}
+
+.cta-section button {
+  padding: 15px 30px;
+}
+
+.cta-section a {
+  padding: 15px 30px;
+}
+
+img {
+  border-radius: 10px;
+}
